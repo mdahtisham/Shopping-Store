@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <Style>
+
+        body{
+            margin: 0;
+            margin-top: 0;
+            background-color: rgb(240, 227, 248);
+
+        }
+
+        .nav2{
+            display: flex;
+            top: 0;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            background-color: rgb(148, 114, 196);
+            margin: 0px; 
+            list-style: none;
+            z-index: -1;
+            /* opacity: 0.5; */
+            /* position: sticky; */
+
+        }
+        /* ____________________Iphone 12 pro ________________________________________ */
+        @media (max-width:414px){
+            .nav2{
+                display: flex;
+            top: 0;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            background-color: rgb(148, 114, 196);
+            margin: 0px; 
+            list-style: none;
+            z-index: -1;
+
+            }
+
+        }
+
+        .nav2 ul{
+            display: flex;
+            
+        }
+         .nav2 ul li {
+            list-style: none;
+        }
+
+
+        .nav2 ul li a{
+            text-decoration: none;
+            padding: 12px 20px;
+            font-size: 25px;
+            border-radius: 35px;
+            display: block;
+            color: white;
+        }
+               
+
+       /* ____________________Iphone 12 pro ________________________________________ */
+       @media (max-width:414px){
+        .nav2 ul li a{
+            text-decoration: none;
+            padding: 4px 7px;
+            font-size: 15px;
+            border-radius: 35px;
+            display: block;
+            color: white;
+        }
+
+
+       }
+
+
+
+        
+        
+        .nav2 ul li a:hover{
+            background-color: white;
+            color: rgb(108, 45, 110);
+            cursor: pointer;
+            
+        }
+
+        div.home{
+            display: flex;
+            margin-top: 83px;
+            font-size: 60px;
+            /* border: 2px solid black; */
+            padding-left: 35%;
+            text-align: center;
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            div.home{
+                display:inline;
+                padding: 4%;
+               
+                margin-top: 140px;
+                font-size: 26px;
+                /* border: 2px solid black; */
+                
+                text-align: center;
+
+            }
+        }
+
+
+
+
+
+        .home2{
+            margin-left: -130px;
+            /* border: 4px solid red; */
+            text-shadow: 2px 2px rgb(103, 61, 158);
+            background-color: rgb(206, 177, 243);
+            padding: 8px 40px;
+            box-shadow: 4px 4px rgb(92, 14, 122);
+            border-top-left-radius: 25px;
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+                .home2{
+        
+            margin: 10%;
+            margin-top: 18%;
+            /* border: 4px solid red; */
+            text-shadow: 1px 1px rgb(103, 61, 158);
+            background-color: rgb(206, 177, 243);
+            padding: 4px 20px;
+            box-shadow: 4px 4px rgb(92, 14, 122);
+            border-top-left-radius: 20px;
+        }
+    }
+
+
+
+
+
+
+
+        div.home3{
+            font-size: 23px;
+            text-align: center;
+            color: rgb(92, 14, 122);
+            /* background-color: rgb(188, 152, 235); */
+            padding: 12px;
+            margin-bottom: 200px;
+            margin-top: -50px;
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            div.home3{
+                font-size: 17px;
+                margin-top: -25px;
+                
+            }
+        }
+
+
+
+
+
+
+
+
+        .ad{
+            padding: 8px;
+            background-color: rgb(218, 186, 248);
+            margin: 5px;
+            border-radius: 3px;
+            animation-name: adnnn;
+            animation-duration: 6s;
+            animation-delay: 2s;
+
+        }
+        @keyframes adnnn {
+            0% { margin-top: 0px; margin-left: 0px; }
+            10% { margin-top: 0px; margin-right: 500px; }
+            20% { margin-top: 0px; margin-left: 500px; }
+            30% { margin-top: 0px; margin-right: 500px; }
+            40% { margin-top: 0px; margin-left: 500px; }
+            50% { margin-top: 0px; margin-right: 400px; }
+            60% { margin-top: 0px; margin-left: 400px; }
+            70% { margin-top: 0px; margin-right: 200px; }
+            80% { margin-top: 0px; margin-left: 200px; }
+            90% { margin-top: 0px; margin-right: 100px; }
+            95% { margin-top: 0px; margin-left: 100px; }
+            100% { margin-top: 0px; margin-left: 0px; }
+        }
+        /* .ad:hover{
+            transform: rotateX(150deg);
+            background-color: blueviolet;
+        } */
+
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .ad{
+            padding: 8px;
+            background-color: rgb(218, 186, 248);
+            border-bottom-right-radius: 17px;
+            box-shadow: 1px 1px rgb(95, 36, 143);
+            border-top-left-radius: 17px;
+            margin: 5px;
+            /* border-radius: 3px; */
+            animation-name: adnnn;
+            animation-duration: 6s;
+            animation-delay: 2s;
+            }
+
+            @keyframes adnnn {
+            0% { margin-top: 0px; margin-left: 0px; }
+            10% { margin-top: 0px; margin-right: 100px; }
+            20% { margin-top: 0px; margin-left: 100px; }
+            30% { margin-top: 0px; margin-right: 80px; }
+            40% { margin-top: 0px; margin-left: 80px; }
+            50% { margin-top: 0px; margin-right: 60px; }
+            60% { margin-top: 0px; margin-left: 60px; }
+            70% { margin-top: 0px; margin-right: 40px; }
+            80% { margin-top: 0px; margin-left: 40px; }
+            90% { margin-top: 0px; margin-right: 20px; }
+            95% { margin-top: 0px; margin-left: 20px; }
+            100% { margin-top: 0px; margin-left: 0px; }
+        }
+
+
+        }
+
+
+
+
+
+
+
+
+        .addresscew{
+            font-size: 18px;
+            
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .addresscew{
+            font-size: 14px;
+            margin-top: 40px;
+            
+        }
+    }
+
+
+
+
+/* _______________________________Mobile____________________________________________________________________________________ */
+
+
+
+
+        h3.mob2{
+            background-color: rgb(159, 93, 221);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 12px;
+            margin: 0px;
+
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            h3.mob2{
+            font-size: 20px;
+            }
+        }
+
+
+
+
+        div.mob3{
+            list-style: none;
+            display: flex;
+            /* position: relative; */
+            float: left;
+            /* padding: 30px; */
+    
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            div.mob3{
+            list-style: none;
+            display: list-item;
+            
+            }
+        }
+
+
+
+
+
+
+
+        .itemmob{
+            /* border: 2px solid gray; */
+            height: 260px;
+            width: 300px;
+            margin: 8px;
+            text-align: center;
+            padding-top: 1px;
+            font-size: 18px;
+            
+            /* background-color: rgb(201, 123, 201); */
+
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .itemmob{
+                height: 240px;
+            width: 230px;
+            margin: 8px;
+            text-align: center;
+            padding-top: 3px;
+            font-size: 18px;
+            /* border: 2px solid red; */
+            margin-left: 30%;
+        
+            }
+        }
+
+
+
+
+
+
+
+        .itemmob2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 170px;
+            width: 200px;
+            border-radius: 6%;
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            .itemmob2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 150px;
+            width: 160px;
+            border-radius: 6%;
+        }
+    }
+
+
+
+
+
+
+
+
+        .itemmob3{
+            background-color: rgb(192, 162, 209);
+            margin: 0px;
+            border-radius: 10%;
+            padding: 2px;
+            margin: 5px;
+        }
+        .itemmob3:hover {
+            background-color: white;
+            color: rgb(108, 45, 110);
+        }
+        .mobbutton{
+            background-color: rgb(159, 77, 206);
+            color: white;
+            border: none;
+            padding: 3px 12px;
+            border-radius: 8px;
+            box-shadow: 4px 5px rgba(192, 190, 190, 0.76);
+            
+        }
+        .mobbutton:hover{
+            background-color: red;
+            cursor: pointer;
+        }
+
+        /* _____________________________________Accessories______________________________________________________ */
+    
+
+        .acceshead{
+            background-color: rgb(159, 93, 221);
+            /* border: 2px solid green; */
+            text-align: center;
+            /* display: flex; */
+            position: block;
+            margin-top: 600px;
+            padding: 8px;
+            color: white;
+            
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .acceshead{
+            position: block;
+            margin-top: 2070px;
+            padding: 6px;
+            }   
+        }
+
+
+
+
+
+
+
+        div.access3{
+            list-style: none;
+            display: flex;
+            /* position: relative; */
+            float: left;
+            /* padding: 30px; */
+    
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            div.access3{
+            list-style: none;
+            display: list-item;
+            }
+        }
+
+
+
+
+
+
+        .itemaccess{
+            /* border: 2px solid gray; */
+            height: 270px;
+            width: 300px;
+            margin: 5px;
+            text-align: center;
+            padding-top: 1px;
+            font-size: 18px;
+            
+            /* background-color: rgb(201, 123, 201); */
+
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+                .itemaccess{
+            /* border: 2px solid gray; */
+            height: 290px;
+            width: 270px;
+            margin: 5px;
+            text-align: center;
+            padding: 2px;
+            font-size: 18px;
+            margin-left: 20%;
+            /* border: 2px solid red; */
+
+                }
+            }
+
+
+
+
+
+
+
+        .itemaccess2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 160px;
+            width: 200px;
+            border-radius: 35px;
+        
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .itemaccess2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 160px;
+            width: 180px;
+            border-radius: 35px;
+            }
+        }
+
+
+
+
+
+        .itemaccess3{
+            background-color: rgb(216, 171, 230);
+            margin: 0px;
+            border-radius: 3%;
+            padding: 5px;
+            margin: 5px;
+            
+           
+        }
+        .itemaccess3:hover {
+            background-color: white;
+            color: rgb(190, 177, 201);
+        }
+        .itemaccess4{
+            font-size: 13px;
+            /* color: rgb(224, 220, 228); */
+            background-color: rgb(229, 189, 235);
+            padding: 2px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           
+        }
+
+        .accessbutton{
+            background-color: rgb(255, 41, 41);
+            color: white;
+            border: none;
+            padding: 3px 12px;
+            border-radius: 8px;
+            margin-top: 5px;
+            box-shadow: 4px 5px rgba(192, 190, 190, 0.76);
+        }
+        .accessbutton:hover{
+            background-color: rgb(159, 77, 206);
+            cursor: pointer;
+        }
+        /* __________________________________________Recharge_____________________________________________________ */
+
+        .headrech{
+            text-align: center;
+            /* border: 3px solid green; */
+            margin-top: 620px;
+            padding: 12px;
+            color: white;
+            background-color: rgb(159, 93, 221);
+
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            .headrech{
+           
+            /* border: 3px solid green; */
+            margin-top: 2520px;
+            padding: 8px;
+            }
+        }
+
+
+
+
+
+
+
+        div.rech1{
+            list-style: none;
+            display: flex;
+            /* position: relative; */
+            float: left;
+            /* padding: 30px; */
+            
+    
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            div.rech1{
+            list-style: none;
+            display: list-item;
+            /* border: 2px solid red; */
+            width: 100%;
+           
+            }
+        }
+
+
+
+
+
+
+
+
+        .itemrech{
+            
+            /* border: 2px solid gray; */
+            height: 475px;
+            width: 400px;
+            margin: 10px 10px;
+            text-align: center;
+            padding: 5px;
+            padding-top: 1px;
+            font-size: 18px;
+            
+            /* background-color: rgb(201, 123, 201); */
+
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .itemrech{
+            
+            /* border: 2px solid gray; */
+            height: 415px;
+            width: 300px;
+            margin: 20px 35px;
+            text-align: center;
+            padding: 5px;
+            padding-top: 1px;
+            font-size: 14px;
+            }
+        }
+
+
+
+
+
+
+
+
+
+        .itemrech2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 170px;
+            width: 210px;
+            border-radius: 15%;
+        
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            .itemrech2{
+            margin: 1px;
+            /* padding: -20px; */
+            height: 150px;
+            width: 170px;
+            border-radius: 15%;
+            }
+        }
+
+
+
+
+
+
+        .itemrech3{
+            background-color: rgb(216, 171, 230);
+            margin: 0px;
+            border-radius: 12px;
+            padding: 5px;
+            margin: 5px;
+            margin-top: 20px;
+            
+           
+        }
+
+        .itemrech3:hover {
+            background-color: white;
+            color: rgb(190, 177, 201);
+            
+        }
+        .itemrech4{
+            font-size: 13px;
+            /* color: rgb(224, 220, 228); */
+            background-color: rgb(235, 223, 236);
+            padding: 4px;
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+           
+        }
+
+        .rechbutton{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 10px;
+            margin-top: 5px;
+            box-shadow: 4px 5px rgba(192, 190, 190, 0.76);
+        }
+        .rechbutton:hover{
+            background-color: rgb(159, 77, 206);
+            cursor: pointer;
+        }
+        /* ____________________________________________Contact Us___________________________________________________ */
+
+        .headcont{
+            /* border: 3px solid red; */
+            margin-top: 580px;
+            padding: 12px;
+            color: white;
+            background-color: rgb(159, 93, 221);
+            text-align: center;
+           
+        }
+          /* _______________________Iphone 12 pro____________________________________________________ */
+          @media (max-width: 414px){
+            .headcont{
+            /* border: 3px solid red; */
+            margin-top: 1400px;
+            padding: 12px;
+            color: white;
+            background-color: rgb(159, 93, 221);
+            text-align: center;
+        }
+    }
+
+
+
+
+
+
+        .contact1{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact1{
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
+
+
+
+
+        .contact2{
+            background-color: rgb(209, 182, 233);
+            padding: 10px 100px;
+            border-radius: 30%;
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact2{
+            background-color: rgb(209, 182, 233);
+            padding: 6px 35px;
+            border-radius: 25%;
+        }
+    }
+
+
+
+
+        .contact3{
+            /* border: 3px solid red; */
+            margin: 20px;
+            padding: 15px 300px;
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact3{
+            /* border: 3px solid red; */
+            margin: 8px;
+            padding: 15px 20px;
+        }
+    }
+
+
+
+
+        .contact4{
+            font-size: 18px;
+            background-color: rgb(221, 202, 236);
+            padding: 12px;
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact4{
+            font-size: 14px;
+            background-color: rgb(221, 202, 236);
+            padding: 8px;
+        }
+    }
+
+
+
+
+        .contact5{
+            font-size: 14px;
+            background-color: rgba(224, 206, 236, 0.89);
+            padding: 8px;
+            
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact5{
+            font-size: 12px;
+            background-color: rgba(224, 206, 236, 0.89);
+            padding: 3px;
+            }   
+        }
+
+
+
+
+                .contact55{
+                    font-size: 14px;
+                    background-color: rgba(235, 215, 238, 0.89);
+                    padding: 8px;
+                    margin: 8px 60px;
+                    border-radius: 8%;               
+                }
+                /* _______________________Iphone 12 pro____________________________________________________ */
+                @media (max-width: 414px){
+                    .contact55{
+                    font-size: 12px;
+                    background-color: rgba(235, 215, 238, 0.89);
+                    padding: 3px;
+                    margin: 4px 20px;
+                    border-radius: 6%;               
+                }
+            }
+
+
+
+
+                        .contact555{
+                            border-style: none;
+                            margin-left: 25px;
+                            padding: 3px;
+                            padding-right: 100px;
+                        }
+                        /* _______________________Iphone 12 pro____________________________________________________ */
+                        @media (max-width: 414px){
+                            .contact555{
+                            border-style: none;
+                            margin-left: 8px;
+                            padding: 1px;
+                            padding-right: 10px;
+                        }
+                    }
+
+
+                        .contact555query{
+                            margin-top: 3px;
+                            margin-left: 45px;
+                        }
+                        /* _______________________Iphone 12 pro____________________________________________________ */
+                        @media (max-width: 414px){
+                            .contact555query{
+                            margin-top: 3px;
+                            margin-left: 45px;
+                            columns: 10;
+                        
+                        }
+                    }
+
+
+        .contact6{
+            font-size: 16px;
+            background-color: rgb(221, 202, 236);
+            padding: 12px;
+        
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .contact6{
+            font-size: 16px;
+            background-color: rgb(221, 202, 236);
+            padding: 12px;
+        
+        }
+    }
+
+
+
+
+
+        .contact7{
+            font-size: 12px;
+            background-color: rgba(224, 206, 236, 0.89);
+            padding: 2px;
+            
+        }
+        /* _______________________Iphone 12 pro____________________________________________________ */
+        @media (max-width: 414px){
+            .contact7{
+            font-size: 12px;
+            background-color: rgba(224, 206, 236, 0.89);
+            padding: 8px;
+            }   
+        }
+
+
+
+
+
+        .contactoption{
+            text-decoration: none;
+            border: none; 
+            background-color: rgba(223, 219, 228, 0.829);
+            padding: 3px;
+            
+           
+                    
+        }
+
+        .btn{
+            text-align: center;
+            margin-left: 42%;
+            border-style: none;
+            background-color: red;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 12px;
+            box-shadow: 3px 5px rgba(177, 175, 175, 0.651);
+            cursor: pointer;
+            
+            
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .btn{
+                margin-left: 35%;
+                padding: 6px 15px;
+                box-shadow: 2px 4px rgba(177, 175, 175, 0.651);
+
+            }
+            }
+
+
+
+        .btn:hover{
+            background-color: black;
+            
+        }
+
+
+        .btn2{
+            color: white;
+            text-decoration: none;
+        }
+
+        /* ____________________________Footer___________________________________________________________________________ */
+
+        .footer2{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .footer2{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+
+
+
+        .foot3{
+            font-size: 18px;
+            padding: 3px 50px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+         /* _______________________Iphone 12 pro____________________________________________________ */
+         @media (max-width: 414px){
+            .foot3{
+            font-size: 12px;
+            padding: 3px 18px;
+            font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+
+
+/* __________________________________Last______________________________________________________________________________________ */
+
+        /* _______________________Iphone 12 pro____________________________________________________ */ 
+        @media (max-width: 414px){
+        .last1{
+            /* border: 2px solid green; */
+            height: 300px;
+            width: 1px;
+        }
+        }
+    </Style>
+
+    <title>IQRAR MOBILE SHOP</title>
+</head>
+<body>
+    <!-- <div class="nav"></div> -->
+    <section id="homelink">
+        <nav class="nav2">
+            <ul>
+                <li> <a href="#homelink">IQ</a> </li>
+                <li> <a href="#mobilelink">Mobile</a> </li>
+                <li> <a href="#accesslink">Accessories</a> </li>
+                <li> <a href="#rechargelink">Recharge</a> </li>
+                <li> <a href="#contactlink">Contact Us</a> </li>
+                
+            </ul>
+        </nav>
+    <!-- </div> -->
+        <div class="home">
+            <p class="home2">IQRAR MOBILE SHOP</p>
+            <!-- <P >Mobile Phone | Accessories | Recharge</P> -->
+        </div>
+        <div class="home3">
+            
+        <P class="home31"> <span class="ad"> PRO: MD ADNAN </span>
+            <br>
+            <br>
+            &#128241 Mobile Phone | Accessories | Recharge
+            <br>
+            
+            Add: Nadwa Market Andhey Ki chowki Kakori Hardoi Road Lucknow
+            <br>
+            Uttar Pradesh, India
+        </P>
+        <p class="addresscew">
+            &#128222 9793146612, 9936281123
+            <br>
+            &#128231 mdadnan@gmail.com
+            <br>
+            &#127758 www.iqrarmobileshop.netlify
+        </p>
+        </div>
+        </section>
+        <section id="mobilelink">
+        <div class="mob">
+            <h3 class="mob2">Mobile Available</h3>
+            <div class="mob3">
+                <li class="itemmob"> <p class="itemmob3">APPLE Series</p> <br> <img class="itemmob2"  src="/img/iphone.jpeg" alt=""><br> <button class="mobbutton">CLICK NOW</button> </li>
+                <li class="itemmob"><p class="itemmob3">SAMSUNG Series</p><br> <img class="itemmob2"  src="/img/samsung.jpeg" alt=""> <br> <button class="mobbutton">CLICK NOW</button></li>
+                <li class="itemmob"><p class="itemmob3">ONEPLUS Series</p> <br> <img class="itemmob2"  src="/img/oneplus.jpeg" alt=""> <br> <button class="mobbutton">CLICK NOW</button></li>
+                <li class="itemmob"><p class="itemmob3">MI All Models</p> <br><img class="itemmob2" " src="/img/mi.jpeg" alt=""> <br> <button class="mobbutton">CLICK NOW</button></li>
+                <br>
+            </div>
+            <div class="mob3">
+                <li class="itemmob"> <p class="itemmob3"> NOTHING 1 </p>  <br> <img class="itemmob2"  src="/img/nothing.jpeg" alt=""><br> <button class="mobbutton">CLICK NOW</button></li>
+                <li class="itemmob"> <p class="itemmob3">REALME All Models</p>  <br> <img class="itemmob2"  src="/img/realme.jpeg" alt=""><br> <button class="mobbutton">CLICK NOW</button> </li>
+                <li class="itemmob"> <p class="itemmob3">OPPO All Models</p>  <br> <img class="itemmob2"  src="/img/oppo.jpeg" alt=""><br> <button class="mobbutton">CLICK NOW</button> </li>
+                <li class="itemmob"><p class="itemmob3">VIVO All Models</p> <br> <img class="itemmob2"  src="/img/vivo.jpeg" alt=""><br> <button class="mobbutton">CLICK NOW</button></li>
+            </div>
+            </div>
+        </section>
+
+<!-- __________________________________________Accessories____________________________________________________________ -->
+
+        <section id="accesslink">
+            <div class="cont21">
+                <div class="cont22"></div>
+                <h2 class="acceshead">Accessories</h2>
+                </div>
+                <div class="access3">
+                        <li class="itemaccess"> <p class="itemaccess3">Charger</p> <br> <img class="itemaccess2"  src="/img/charger.jpeg" alt=""> <br> <span class="itemaccess4">All types of Charger Available</span> <br> <button class="accessbutton">Click Here</button> </li>
+                        <li class="itemaccess"><p class="itemaccess3">Earphone</p><br> <img class="itemaccess2"  src="/img/earphone.jpeg" alt="">  <br> <span class="itemaccess4">Different types of Earphone Available</span><br> <button class="accessbutton">Click Here</button></li>
+                        <li class="itemaccess"><p class="itemaccess3">Neck Band</p> <br> <img class="itemaccess2"  src="/img/neckband.png" alt=""> <br> <span class="itemaccess4">Check it out Neck Band</span> <br> <button class="accessbutton">Click Here</button></li>
+                        <li class="itemaccess"><p class="itemaccess3">Battery</p> <br><img class="itemaccess2" " src="/img/battery.jpeg" alt="">  <br> <span class="itemaccess4">Batteries are Availabe with warranties</span><br> <button class="accessbutton">Click Here</button></li>
+                        <br>
+                    </div>
+                    <div class="access3">
+                        <li class="itemaccess"> <p class="itemaccess3"> Cover </p>  <br> <img class="itemaccess2"  src="/img/cover.jpeg" alt=""> <br> <span class="itemaccess4">Rubber | Plastic & Silicon all are Available</span> <br> <button class="accessbutton">Click Here</button></li>
+                        <li class="itemaccess"> <p class="itemaccess3">Bluetooth Speaker</p>  <br> <img class="itemaccess2"  src="/img/bluettoth speaker.jpeg" alt=""> <br> <span class="itemaccess4">Check for Bluetooth Speaker</span> <br> <button class="accessbutton">Click Here</button> </li>
+                        <li class="itemaccess"> <p class="itemaccess3">Data Cable </p>  <br> <img class="itemaccess2"  src="/img/cable.jpeg" alt=""> <br> <span class="itemaccess4">Check for Data Cable</span> <br> <button class="accessbutton">Click Here</button> </li>
+                        <li class="itemaccess"><p class="itemaccess3">Pendrive</p> <br> <img class="itemaccess2"  src="/img/pendrive.jpeg" alt=""> <br> <span class="itemaccess4">Penddrive | Card Reader | Memroy Card</span> <br> <button class="accessbutton">Click Here</button></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- _________________________________________________RECHARGE_________________________________________________________________________ -->
+            
+        <section id="rechargelink" class="cont3">
+            <div class="recharge1">
+                <h3 class="headrech">Recharge</h3>
+                <div class="rech1">
+                    <li class="itemrech"> <p class="itemrech3">Mobile Recharge</p> <br> <img class="itemrech2"  src="/img/recharge.png" alt=""> <br> <span class="itemrech4">Welcome to our mobile recharge service! <br> We provide recharge facilities for leading mobile operators such as Jio, Airtel, Vi, and BSNL. To recharge your mobile, simply visit our website, select the operator you are using, enter your mobile number, and choose the recharge plan that best suits your needs. We offer quick and easy recharge options. Recharge your mobile now and enjoy uninterrupted service. <br> Thank you for choosing us."</span> <br> <button class="rechbutton">Contact For Recharge</button> </li>
+                        <li class="itemrech"><p class="itemrech3">DTH Recharge</p><br> <img class="itemrech2"  src="/img/dth.jpeg" alt="">  <br> <span class="itemrech4">Get your DTH recharge done in minutes with us! <br> We offer hassle-free and secure online recharge services for top DTH operators including Tata Sky, Airtel, BSNL, and more. To recharge your DTH, simply select the operator you use, enter your DTH number, choose the plan you prefer. Our platform ensures easy recharge experience, so you can enjoy your favorite TV shows without any interruptions. <br> Recharge your DTH now with us.</span><br> <button class="rechbutton">Contact For Recharge</button></li>
+                        <li class="itemrech"><p class="itemrech3">Fast Tag Recharge</p> <br> <img class="itemrech2"  src="/img/fasttag.png" alt=""> <br> <span class="itemrech4">Never stop moving with our Fastag recharge services! <br> Say goodbye to long lines and toll booth delays with our quick and easy Fastag recharge options. To recharge your Fastag, simply choose your bank, enter your Fastag number, and select the recharge amount. Our platform ensures secure payments and instant recharge, so you can keep your account topped up and breeze through tolls. <br> Recharge your Fastag now and keep your journey smooth.</span> <br> <button class="rechbutton">Contact For Recharge</button></li>
+                        <!-- <li class="itemrech"><p class="itemrech3">Battery</p> <br><img class="itemrech2" " src="/img/battery.jpeg" alt="">  <br> <span class="itemrech4">Batteries are Availabe with warrenties</span><br> <button class="rechbutton">Click Here</button></li> -->
+                        <br>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- __________________________________________________Contact_______________________________________________________________ -->
+
+            <section id="contactlink">
+                <div class="cont4">
+                    <h3 class="headcont">
+                        Contact Us
+                    </h3>
+                    <div class="contact1">
+                           <span class="contact2">Contact us for any given services </span> <br> <br>
+                           <span class="contact2">&#128222 9793146612</span> 
+                    </div>
+                    <div class="contact3">
+                        <form action="">
+                            <p class="contact4">Fill the Details:-</p>
+                           <p class="contact5"> Name * :<input class="contact555" placeholder="John"  type="text" name="name"  required></p>
+                           <p class="contact5"> Email : <input class="contact555" placeholder="abc@gmail.com" type="email" name="email"> </p>
+                           <p class="contact5">Contact Number * :<input class="contact555" placeholder="Contact Number" type="number" required></p>
+                            <!-- <br> -->
+
+                           <h4 class="contact6"> Our Services :-</h4>
+                           <p class="contact6">Service Type:
+                           <select class="contactoption" name="contact555" id="">
+                            <option class="contact555" value=""> --Select Service--</option>
+                            <option value="mobile">Mobile Phone</option>
+                            <option value="access">Accessories</option>
+                            <option value="recharge">Recharge</option>
+                           </select>
+                            </P>
+
+                            <P class="contact7"> Mobile Brand :
+                           <select class="contactoption" name="" id="" required>
+                            <option  value=""> -- Select --</option>
+                            <option value="mobile">APPLE</option>
+                            <option value="access">SAMSUNG</option>
+                            <option value="recharge">ONEPLUS</option>
+                            <option value="recharge">MI</option>
+                            <option value="recharge">NOTHING</option>
+                            <option value="recharge">REALME</option>
+                            <option value="recharge">OPPO</option>
+                            <option value="recharge">VIVO</option>
+                           </select>
+                           <p class="contact55">Model Name :<input class="contact555" placeholder="Model Name" type="text" name="name" ></p>
+                           </p>
+                            <br>
+                           <p class="contact7"> Accessories :
+                           <select class="contactoption" name="" id="" >
+                            <option  value=""> -- Select --</option>
+                            <option value="mobile">Charger</option>
+                            <option value="recharge">Sim Card</option>
+                            <option value="access">Earphone</option>
+                            <option value="recharge">Neck Band</option>
+                            <option value=""> Battery</option>
+                            <option value="mobile">Cover</option>
+                            <option value="access">Bluetooth Speaker</option>
+                            <option value="recharge">Data Cable</option>
+                            <option value="recharge">Pen Drive</option>
+                            <option value="recharge">Mobile Glass</option>
+                            <option value="recharge">Card Reader</option>
+                            <option value="recharge">Connector</option>
+                           </select>
+                           <p class="contact55">Model Name :<input class="contact555" placeholder="Model Name" type="text" name="name" ></p>
+                           </p>
+
+                           <br>
+
+                           <p class="contact7"> Recharge :
+                           <select class="contactoption" name="" id="" required>
+                            <option  value=""> -- Select --</option>
+                            <option  value="mobile">Mobile Recharge</option>
+                            <option value="access">DTH Recharge</option>
+                            <option value="recharge">Fast Tag</option>
+                           </select>
+                           <p class="contact55"> Recharge Type : <input class="contact555" placeholder="Recharge Type" type="text" name="name" ></p>
+                           </p>
+                           
+                           <p class="contact7">
+                            Query : <br> <textarea class="contact555query" name="" id="" cols="35" rows="5"></textarea>
+                           </p>
+
+                           <button class="btn"><a class="btn2" href=""> Submit Now</a></button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container5">
+                <div class="footer1">
+                    <p class="footer2">
+                        <span class="foot3">Design By Md Ahtisham</span>
+                        <span class="foot3">  </span>
+                        <span class="foot3">Copyright &#169 2023-24</span>
+                        <span class="foot3">All Rights Reserved &#174</span>
+
+                    </p>
+
+
+                </div>
+
+            </section>
+
+            <section class="last1">
+                <p class="last2"><br>
+
+                </p>
+            </section>
+        
+</body>
+</html>
